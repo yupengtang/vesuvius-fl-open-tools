@@ -1,0 +1,21 @@
+--- a/fl/remote/setup.sh
++++ b/fl/remote/setup.sh
+@@ -3,7 +3,7 @@
+ set -euo pipefail
+ W=/home/liam/projects/vesuvius-work; V=/home/liam/projects/villa
+ SHA=a329895ea5e9bde78752e60dbc0a4878dd2ab909
+-APPIMG=https://github.com/ScrollPrize/villa/releases/download/latest/VC3D-4eecd08-2026-10-12-linux-x86_64.AppImage   # tested 2026-10-13; the 'latest' tag moves
++APPIMG=https://github.com/ScrollPrize/villa/releases/download/vc3d-archive-latest-432302465/VC3D-c9f8c57-2026-11-02-linux-x86_64.AppImage   # pinned: the build the companion repositories ran on
+ export DEBIAN_FRONTEND=noninteractive
+ (apt-get update -qq && apt-get install -y -qq curl git rsync file libgl1 libglib2.0-0 procps libfreetype6 libfontconfig1 libxkbcommon0 libdbus-1-3 libegl1 libopengl0 libx11-6 libxcb1 build-essential >/dev/null) || true
+ mkdir -p $W/envs $W/models/ink9_ens $W/vc_build_main/bin $W/fl/vc3dcfg $W/fl/vol $W/fl/tmp $W/fl/run $W/logs
+@@ -20,7 +20,8 @@
+ if [ ! -x /opt/squashfs-root/AppRun ]; then
+   # the pinned asset disappears whenever villa re-cuts its 'latest' release (2026-10-12: fb8c2c4 -> 404, every lane rendered 0 windings):
+   # fall back to whatever x86_64 AppImage the 'latest' release carries now
+-  cd /opt && { curl -fsSL -o VC3D.AppImage $APPIMG || curl -fsSL -o VC3D.AppImage "$(curl -fsSL https://api.github.com/repos/ScrollPrize/villa/releases/tags/latest \
++  C=${FL_BASE:-/nonexistent}/fl/cache/$(basename $APPIMG)
++  cd /opt && { { [ -s $C ] && cp $C VC3D.AppImage; } || curl -fsSL --retry 4 --retry-delay 30 -o VC3D.AppImage $APPIMG || curl -fsSL -o VC3D.AppImage "$(curl -fsSL https://api.github.com/repos/ScrollPrize/villa/releases/tags/latest \
+       | python3 -c "import json,sys;print(next(a['browser_download_url'] for a in json.load(sys.stdin)['assets'] if a['name'].endswith('linux-x86_64.AppImage')))")"; } \
+     && chmod +x VC3D.AppImage && ./VC3D.AppImage --appimage-extract >/dev/null
+ fi

@@ -1,0 +1,216 @@
+ 24.39 c343cw_w046            rev x2600   rows  15.0 fib 6.2 tex 0.97 crack 0.12 shape 0.27 recur 0.164  -> REVIEW
+ 24.14 c343cw_w045            rev x2600   rows   0.0 fib 3.8 tex 0.95 crack 0.01 shape 0.275 recur 0.163  -> REVIEW
+ 10.00 c343cw_w047            rev x2600   rows  15.0 fib 6.2 tex 0.98 crack 0.19 shape 0.281 recur 0.149  -> REVIEW
+  9.20 c343cw_w066            rev x0      rows  15.0 fib 3.8 tex 0.97 crack 0.59 shape 0.209 recur -0.102  -> REVIEW
+  5.58 c343cw_w045            rev x0      rows   0.0 fib 3.8 tex 0.97 crack 0.98 shape 0.457 recur 0.065  -> REVIEW
+  4.12 c343cw_w047            fwd x2600   rows  15.0 fib 6.2 tex 0.98 crack 0.0 shape 0.221 recur 0.149  -> REVIEW
+  3.54 c343cw_w065            rev x3900   rows   0.0 fib 11.2 tex 1.02 crack 0.94 shape 0.315 recur 0.144  -> REVIEW
+  3.44 c343cw_w048            rev x2600   rows  20.0 fib 8.8 tex 1.02 crack 1.5 shape 0.468 recur 0.038  -> REVIEW
+  2.44 c343cw_w064            fwd x0      rows  15.0 fib 1.2 tex 0.97 crack 0.77 shape 0.267 recur 0.078  -> REVIEW
+  2.08 c343cw_w047            rev x1300   rows   0.0 fib 6.2 tex 0.99 crack 0.27 shape 0.282 recur 0.086  -> REVIEW
+  1.82 c343cw_w048            rev x1300   rows  15.0 fib 3.8 tex 1.01 crack 1.06 shape 0.391 recur 0.148  -> REVIEW
+  0.87 c343cw_w061            rev x2600   rows  15.0 fib 8.8 tex 1.01 crack 0.12 shape 0.515 recur 0.271  -> REVIEW
+  0.49 c343cw_w047            rev x0      rows  15.0 fib 3.8 tex 0.97 crack 1.29 shape 0.559 recur 0.114  -> REVIEW
+  0.20 c343cw_w065            rev x0      rows  10.0 fib 1.2 tex 0.99 crack 0.4 shape 0.322 recur -0.085  -> REVIEW
+ -0.07 c343cw_w058            rev x1300   rows   0.0 fib 3.8 tex 1.0 crack 0.34 shape 0.446 recur 0.248  -> REVIEW
+ -0.09 c343cw_w028            rev x0      rows  10.0 fib 6.2 tex 1.06 crack 1.34 shape 0.376 recur -0.243  -> REVIEW
+ -0.13 c343cw_w058            rev x3900   rows  20.0 fib 8.8 tex 1.0 crack 0.03 shape 0.201 recur 0.216  -> REVIEW
+ -0.71 c343cw_w061            rev x1300   rows  20.0 fib 1.2 tex 0.95 crack 0.23 shape 0.612 recur 0.236  -> REVIEW
+ -0.85 c343cw_w066            rev x1300   rows  15.0 fib 1.2 tex 0.94 crack 0.62 shape 0.217 recur 0.057  -> REVIEW
+ -0.92 c343cw_w059            fwd x1300   rows  10.0 fib 1.2 tex 0.97 crack 0.45 shape 0.225 recur 0.298  -> REVIEW
+ -1.02 c343cw_w049            rev x0      rows  10.0 fib 6.2 tex 1.0 crack 0.93 shape 0.277 recur 0.156  -> REVIEW
+ 18.62 c343cw_w057            rev x2600   rows  15.0 fib 8.8 tex 1.04 crack 1.47 shape 0.529 recur 0.315  -> REVIEW-2: repeats on w+-2 (structure)
+ 11.49 c343cw_w048            rev x0      rows  15.0 fib 3.8 tex 0.98 crack 2.33 shape 0.765 recur 0.143  -> REVIEW-2: on cracks
+  8.59 c343cw_w059            rev x0      rows   0.0 fib 3.8 tex 0.97 crack 1.07 shape 0.439 recur 0.404  -> REVIEW-2: repeats on w+-2 (structure)
+  7.70 c343cw_w059            rev x2600   rows  15.0 fib 11.2 tex 1.01 crack 0.0 shape 0.481 recur 0.498  -> REVIEW-2: repeats on w+-2 (structure)
+  5.40 c343cw_w060            rev x3900   rows  15.0 fib 11.2 tex 1.0 crack 0.0 shape 0.406 recur 0.418  -> REVIEW-2: repeats on w+-2 (structure)
+  3.57 c343cw_w049            fwd x2600   rows  10.0 fib 6.2 tex 1.04 crack 3.13 shape 0.269 recur 0.142  -> REVIEW-2: on cracks
+  3.48 c343cw_w044            fwd x1300   rows   0.0 fib 6.2 tex 0.96 crack 1.85 shape 0.301 recur 0.228  -> REVIEW-2: on cracks
+  3.41 c343cw_w042            rev x0      rows   0.0 fib 6.2 tex 0.96 crack 0.1 shape 0.419 recur 0.346  -> REVIEW-2: repeats on w+-2 (structure)
+  2.49 c343cw_w061            rev x0      rows   0.0 fib 1.2 tex 0.97 crack 0.0 shape 0.475 recur 0.648  -> REVIEW-2: repeats on w+-2 (structure)
+  2.01 c343cw_w041            rev x0      rows   0.0 fib 1.2 tex 0.95 crack 1.25 shape 0.297 recur 0.345  -> REVIEW-2: repeats on w+-2 (structure)
+  2.01 c343cw_w066            fwd x5200   rows  20.0 fib 8.8 tex 1.05 crack 1.07 shape 0.261 recur 0.553  -> REVIEW-2: repeats on w+-2 (structure)
+  1.87 c343cw_w060            rev x0      rows  15.0 fib 6.2 tex 0.97 crack 0.67 shape 0.461 recur 0.335  -> REVIEW-2: repeats on w+-2 (structure)
+  1.65 c343cw_w044            fwd x0      rows   0.0 fib 3.8 tex 0.97 crack 2.06 shape 0.435 recur 0.119  -> REVIEW-2: on cracks
+  1.53 c343cw_w064            fwd x1300   rows   0.0 fib 1.2 tex 0.94 crack 2.12 shape 0.307 recur 0.23  -> REVIEW-2: on cracks
+  1.39 c343cw_w054            rev x2600   rows  20.0 fib 8.8 tex 0.99 crack 1.43 shape 0.256 recur 0.476  -> REVIEW-2: repeats on w+-2 (structure)
+  1.24 c343cw_w043            rev x0      rows   0.0 fib 3.8 tex 0.96 crack 0.84 shape 0.23 recur 0.326  -> REVIEW-2: repeats on w+-2 (structure)
+  1.10 c343cw_w057            rev x0      rows   0.0 fib 6.2 tex 0.98 crack 0.84 shape 0.277 recur 0.426  -> REVIEW-2: repeats on w+-2 (structure)
+  1.06 c343cw_w058            rev x0      rows   0.0 fib 1.2 tex 0.98 crack 0.57 shape 0.514 recur 0.436  -> REVIEW-2: repeats on w+-2 (structure)
+  0.97 c343cw_w053            rev x0      rows  15.0 fib 1.2 tex 0.97 crack 0.35 shape 0.34 recur 0.569  -> REVIEW-2: repeats on w+-2 (structure)
+  0.89 c343cw_w062            rev x0      rows  10.0 fib 1.2 tex 0.98 crack 0.47 shape 0.329 recur 0.318  -> REVIEW-2: repeats on w+-2 (structure)
+  0.88 c343cw_w045            fwd x0      rows  15.0 fib 3.8 tex 0.97 crack 2.22 shape 0.212 recur 0.065  -> REVIEW-2: on cracks
+  0.58 c343cw_w034            rev x1300   rows   0.0 fib 1.2 tex 1.06 crack 1.44 shape 0.558 recur 0.629  -> REVIEW-2: repeats on w+-2 (structure)
+  0.57 c343cw_w065            rev x2600   rows  20.0 fib 11.2 tex 1.04 crack 2.62 shape 0.225 recur 0.15  -> REVIEW-2: on cracks
+  0.53 c343cw_w039            rev x0      rows  10.0 fib 3.8 tex 1.03 crack 0.5 shape 0.335 recur 0.364  -> REVIEW-2: repeats on w+-2 (structure)
+  0.32 c343cw_w060            rev x1300   rows   0.0 fib 1.2 tex 0.96 crack 0.61 shape 0.298 recur 0.468  -> REVIEW-2: repeats on w+-2 (structure)
+  0.31 c343cw_w042            rev x1300   rows  20.0 fib 8.8 tex 0.95 crack 0.0 shape 0.307 recur 0.438  -> REVIEW-2: repeats on w+-2 (structure)
+  0.20 c343cw_w059            fwd x2600   rows  20.0 fib 11.2 tex 1.01 crack 0.33 shape 0.483 recur 0.498  -> REVIEW-2: repeats on w+-2 (structure)
+  0.11 c343cw_w051            fwd x0      rows  15.0 fib 1.2 tex 1.0 crack 0.24 shape 0.313 recur 0.565  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.05 c343cw_w034            fwd x1300   rows  15.0 fib 1.2 tex 1.06 crack 0.82 shape 0.356 recur 0.629  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.07 c343cw_w054            fwd x2600   rows  20.0 fib 8.8 tex 0.99 crack 1.2 shape 0.262 recur 0.476  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.20 c343cw_w040            rev x0      rows   0.0 fib 3.8 tex 0.98 crack 0.33 shape 0.351 recur 0.398  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.38 c343cw_w066            rev x2600   rows  20.0 fib 11.2 tex 1.03 crack 0.73 shape 0.261 recur 0.501  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.39 c343cw_w057            rev x1300   rows   0.0 fib 3.8 tex 1.03 crack 0.0 shape 0.235 recur 0.311  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.53 c343cw_w058            fwd x0      rows   5.0 fib 1.2 tex 0.98 crack 1.35 shape 0.421 recur 0.436  -> REVIEW-2: repeats on w+-2 (structure)
+ -0.54 c343cw_w044            rev x1300   rows   0.0 fib 6.2 tex 0.96 crack 1.82 shape 0.271 recur 0.228  -> REVIEW-2: on cracks
+ -0.61 c343cw_w044            rev x0      rows   0.0 fib 3.8 tex 0.97 crack 2.0 shape 0.536 recur 0.119  -> REVIEW-2: on cracks
+ -0.64 c343cw_w054            rev x0      rows   5.0 fib 1.2 tex 0.99 crack 0.17 shape 0.207 recur 0.374  -> REVIEW-2: repeats on w+-2 (structure)
+ -1.12 c343cw_w043            fwd x1300   rows   0.0 fib 8.8 tex 0.95 crack 0.07 shape 0.429 recur 0.392  -> REVIEW-2: repeats on w+-2 (structure)
+ -1.33 c343cw_w040            fwd x0      rows  20.0 fib 3.8 tex 0.98 crack 1.19 shape 0.342 recur 0.398  -> REVIEW-2: repeats on w+-2 (structure)
+ -1.50 c343cw_w050            rev x0      rows  15.0 fib 3.8 tex 0.99 crack 0.88 shape 0.429 recur 0.55  -> REVIEW-2: repeats on w+-2 (structure)
+ -1.90 c343cw_w052            rev x2600   rows  20.0 fib 8.8 tex 1.01 crack 1.18 shape 0.222 recur 0.35  -> REVIEW-2: repeats on w+-2 (structure)
+ -2.06 c343cw_w054            rev x1300   rows   5.0 fib 3.8 tex 0.99 crack 0.45 shape 0.307 recur 0.347  -> REVIEW-2: repeats on w+-2 (structure)
+  5.16 c343cw_w050            rev x2600   rows  15.0 fib 8.8 tex 1.04 crack 0.0 shape 0.158 recur -0.129  -> REVIEW-2: round blobs, no strokes
+  4.82 c343cw_w048            fwd x2600   rows  20.0 fib 8.8 tex 1.02 crack 1.15 shape 0.192 recur 0.038  -> REVIEW-2: round blobs, no strokes
+  4.59 c343cw_w038            rev x1300   rows  15.0 fib 8.8 tex 1.05 crack 4.27 shape 0.589 recur 0.367  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  3.44 c343cw_w060            rev x2600   rows  15.0 fib 8.8 tex 1.01 crack nan shape 0.323 recur 0.517  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  2.58 c343cw_w037            rev x0      rows  10.0 fib 3.8 tex 1.01 crack 2.79 shape 0.217 recur 0.43  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  2.35 c343cw_w065            fwd x3900   rows  10.0 fib 11.2 tex 1.02 crack 0.37 shape 0.159 recur 0.144  -> REVIEW-2: round blobs, no strokes
+  2.02 c343cw_w046            rev x1300   rows   0.0 fib 6.2 tex 0.99 crack 0.75 shape 0.046 recur 0.179  -> REVIEW-2: round blobs, no strokes
+  1.37 c343cw_w030            fwd x0      rows  20.0 fib 8.8 tex 1.06 crack 1.3 shape 0.123 recur -0.081  -> REVIEW-2: round blobs, no strokes
+  1.26 c343cw_w061            fwd x2600   rows  10.0 fib 8.8 tex 1.01 crack 0.21 shape 0.0 recur 0.271  -> REVIEW-2: round blobs, no strokes
+  1.16 c343cw_w045            rev x1300   rows  15.0 fib 6.2 tex 0.99 crack 0.9 shape 0.168 recur 0.124  -> REVIEW-2: round blobs, no strokes
+  1.10 c343cw_w043            fwd x0      rows   0.0 fib 3.8 tex 0.96 crack 2.07 shape 0.606 recur 0.326  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  0.35 c343cw_w030            rev x0      rows   0.0 fib 8.8 tex 1.06 crack 0.0 shape 0.158 recur -0.081  -> REVIEW-2: round blobs, no strokes
+  0.22 c343cw_w041            fwd x1300   rows  15.0 fib 8.8 tex 0.94 crack 2.32 shape 0.276 recur 0.584  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  0.19 c343cw_w065            fwd x2600   rows  20.0 fib 11.2 tex 1.04 crack 1.44 shape 0.094 recur 0.15  -> REVIEW-2: round blobs, no strokes
+  0.16 c343cw_w054            fwd x0      rows  10.0 fib 1.2 tex 0.99 crack 3.73 shape 0.359 recur 0.374  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  0.16 c343cw_w064            rev x3900   rows   5.0 fib 11.2 tex 1.01 crack 1.6 shape 0.312 recur 0.327  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+  0.13 c343cw_w033            fwd x0      rows  20.0 fib 8.8 tex 1.03 crack 2.93 shape 0.336 recur 0.416  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+ -0.05 c343cw_w046            fwd x2600   rows  15.0 fib 6.2 tex 0.97 crack 1.34 shape 0.168 recur 0.164  -> REVIEW-2: round blobs, no strokes
+ -0.12 c343cw_w037            fwd x1300   rows  10.0 fib 3.8 tex 1.01 crack 1.8 shape 0.4 recur 0.318  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+ -0.36 c343cw_w041            rev x1300   rows  15.0 fib 8.8 tex 0.94 crack 1.99 shape 0.236 recur 0.584  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+ -0.61 c343cw_w059            rev x1300   rows  20.0 fib 1.2 tex 0.97 crack 0.0 shape 0.189 recur 0.298  -> REVIEW-2: round blobs, no strokes
+ -0.62 c343cw_w057            fwd x0      rows  15.0 fib 6.2 tex 0.98 crack 2.17 shape 0.404 recur 0.426  -> REVIEW-2: on cracks, repeats on w+-2 (structure)
+ -0.68 c343cw_w028            fwd x0      rows  10.0 fib 6.2 tex 1.06 crack 0.94 shape 0.026 recur -0.243  -> REVIEW-2: round blobs, no strokes
+  2.95 c343cw_w055            rev x0      rows  15.0 fib 1.2 tex 0.95 crack 0.97 shape 0.081 recur 0.506  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  2.53 c343cw_w066            rev x3900   rows  10.0 fib 8.8 tex 1.0 crack 0.32 shape 0.129 recur 0.383  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  1.83 c343cw_w058            rev x2600   rows  20.0 fib 11.2 tex 1.04 crack 0.07 shape 0.176 recur 0.488  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  1.76 c343cw_w046            fwd x0      rows  15.0 fib 1.2 tex 0.97 crack 3.33 shape 0.147 recur -0.061  -> REVIEW-2: on cracks, round blobs, no strokes
+  1.39 c343cw_w046            fwd x1300   rows   0.0 fib 6.2 tex 0.99 crack 2.66 shape 0.121 recur 0.179  -> REVIEW-2: on cracks, round blobs, no strokes
+  1.04 c343cw_w039            rev x1300   rows  10.0 fib 8.8 tex 1.02 crack 0.78 shape 0.08 recur 0.509  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  0.98 c343cw_w051            rev x1300   rows  15.0 fib 6.2 tex 1.04 crack 1.35 shape 0.091 recur 0.362  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  0.44 c343cw_w065            rev x1300   rows   5.0 fib 3.8 tex 0.94 crack 1.44 shape 0.19 recur 0.364  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  0.36 c343cw_w053            fwd x1300   rows  15.0 fib 3.8 tex 1.01 crack 0.76 shape 0.18 recur 0.411  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  0.22 c343cw_w053            rev x1300   rows  20.0 fib 3.8 tex 1.01 crack 0.12 shape 0.0 recur 0.411  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+ -1.17 c343cw_w050            fwd x0      rows  10.0 fib 3.8 tex 0.99 crack 1.31 shape 0.175 recur 0.55  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+ -1.58 c343cw_w057            fwd x1300   rows  15.0 fib 3.8 tex 1.03 crack 0.14 shape 0.141 recur 0.311  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+ -1.62 c343cw_w064            rev x1300   rows  15.0 fib 1.2 tex 0.94 crack 2.08 shape 0.152 recur 0.23  -> REVIEW-2: on cracks, round blobs, no strokes
+ -1.73 c343cw_w058            fwd x2600   rows  20.0 fib 11.2 tex 1.04 crack 0.84 shape 0.169 recur 0.488  -> REVIEW-2: round blobs, no strokes, repeats on w+-2 (structure)
+  8.07 c343cw_w066            fwd x3900   rows  20.0 fib 8.8 tex 1.0 crack 2.4 shape 0.123 recur 0.383  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  5.62 c343cw_w038            fwd x1300   rows  10.0 fib 8.8 tex 1.05 crack 2.07 shape 0.18 recur 0.367  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  4.86 c343cw_w040            rev x1300   rows  15.0 fib 8.8 tex 0.96 crack 2.69 shape 0.163 recur 0.376  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  4.59 c343cw_w056            rev x3900   rows  20.0 fib 11.2 tex 1.01 crack 1.93 shape 0.156 recur 0.649  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  3.03 c343cw_w033            fwd x1300   rows   0.0 fib 3.8 tex 1.07 crack 2.14 shape 0.035 recur 0.456  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  2.32 c343cw_w038            fwd x0      rows  10.0 fib 3.8 tex 1.04 crack 1.93 shape 0.092 recur 0.408  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  1.10 c343cw_w033            rev x0      rows  15.0 fib 8.8 tex 1.03 crack 4.7 shape 0.16 recur 0.416  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  0.79 c343cw_w066            rev x5200   rows   0.0 fib 8.8 tex 1.05 crack 2.05 shape 0.184 recur 0.553  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  0.19 c343cw_w053            fwd x0      rows  10.0 fib 1.2 tex 0.97 crack 4.04 shape 0.071 recur 0.569  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+  0.04 c343cw_w066            fwd x2600   rows  20.0 fib 11.2 tex 1.03 crack 3.8 shape 0.0 recur 0.501  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -0.06 c343cw_w037            rev x1300   rows  10.0 fib 3.8 tex 1.01 crack 2.29 shape 0.135 recur 0.318  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -0.06 c343cw_w039            fwd x1300   rows  15.0 fib 8.8 tex 1.02 crack 2.17 shape 0.198 recur 0.509  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -0.23 c343cw_w063            fwd x1300   rows  10.0 fib 3.8 tex 0.95 crack 2.0 shape 0.067 recur 0.364  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -0.30 c343cw_w056            rev x1300   rows  15.0 fib 8.8 tex 1.02 crack 5.8 shape 0.164 recur 0.31  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -0.65 c343cw_w052            fwd x0      rows  15.0 fib 3.8 tex 0.98 crack 2.7 shape 0.114 recur 0.503  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -0.93 c343cw_w064            fwd x3900   rows  10.0 fib 11.2 tex 1.01 crack 2.18 shape 0.098 recur 0.327  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ -1.49 c343cw_w060            fwd x2600   rows  10.0 fib 8.8 tex 1.01 crack nan shape 0.194 recur 0.517  -> REVIEW-2: on cracks, round blobs, no strokes, repeats on w+-2 (structure)
+ 13.73 c343cw_w061            fwd x3900   rows  80.0 fib 11.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+  7.43 c343cw_w062            rev x1300   rows  30.0 fib 3.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+  6.97 c343cw_w055            rev x1300   rows  15.0 fib 18.8 tex 0.99 crack None shape None recur None  -> auto-reject: sheet not flat (fold/crossing)
+  6.95 c343cw_w062            fwd x3900   rows  80.0 fib 8.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+  5.81 c343cw_w056            rev x2600   rows  15.0 fib 13.8 tex 1.03 crack None shape None recur None  -> auto-reject: sheet not flat (fold/crossing)
+  4.80 c343cw_w061            rev x3900   rows  65.0 fib 11.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+  4.40 c343cw_w059            rev x3900   rows  25.0 fib 11.2 tex 0.98 crack None shape None recur None  -> auto-reject: rows not along winding
+  3.40 c343cw_w032            fwd x0      rows  75.0 fib 8.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  2.85 c343cw_w065            fwd x1300   rows  35.0 fib 3.8 tex 0.94 crack None shape None recur None  -> auto-reject: rows not along winding
+  2.77 c343cw_w036            rev x1300   rows  60.0 fib 3.8 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+  2.59 c343cw_w053            rev x2600   rows  25.0 fib 11.2 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+  2.24 c343cw_w063            fwd x0      rows  35.0 fib 3.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+  2.09 c343cw_w055            fwd x2600   rows  60.0 fib 13.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding, sheet not flat (fold/crossing)
+  1.97 c343cw_w060            fwd x3900   rows  80.0 fib 11.2 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.96 c343cw_w035            rev x1300   rows  25.0 fib 1.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.90 c343cw_w050            rev x1300   rows  50.0 fib 6.2 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.70 c343cw_w064            rev x0      rows  25.0 fib 1.2 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.43 c343cw_w062            rev x3900   rows  65.0 fib 8.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.27 c343cw_w056            fwd x0      rows  35.0 fib 3.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.26 c343cw_w056            fwd x2600   rows  15.0 fib 13.8 tex 1.03 crack None shape None recur None  -> auto-reject: sheet not flat (fold/crossing)
+  1.23 c343cw_w042            fwd x0      rows  45.0 fib 6.2 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.21 c343cw_w063            rev x1300   rows  25.0 fib 3.8 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.17 c343cw_w057            fwd x2600   rows  65.0 fib 8.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  1.15 c343cw_w059            fwd x0      rows  25.0 fib 3.8 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.84 c343cw_w035            rev x0      rows  70.0 fib 3.8 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.79 c343cw_w065            fwd x0      rows  60.0 fib 1.2 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.78 c343cw_w055            rev x2600   rows  20.0 fib 13.8 tex 1.0 crack None shape None recur None  -> auto-reject: sheet not flat (fold/crossing)
+  0.78 c343cw_w063            rev x3900   rows  10.0 fib 13.8 tex 1.03 crack None shape None recur None  -> auto-reject: sheet not flat (fold/crossing)
+  0.70 c343cw_w050            fwd x2600   rows  40.0 fib 8.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.67 c343cw_w047            fwd x1300   rows  65.0 fib 6.2 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.62 c343cw_w051            rev x0      rows  65.0 fib 1.2 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.60 c343cw_w027            rev x0      rows  60.0 fib 8.8 tex 1.06 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.57 c343cw_w048            fwd x1300   rows  40.0 fib 3.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.55 c343cw_w050            fwd x1300   rows  30.0 fib 6.2 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.43 c343cw_w032            rev x0      rows  75.0 fib 8.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.34 c343cw_w056            rev x0      rows  40.0 fib 3.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.32 c343cw_w047            fwd x0      rows  25.0 fib 3.8 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.29 c343cw_w034            fwd x0      rows  75.0 fib 3.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.15 c343cw_w049            rev x2600   rows  30.0 fib 6.2 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.12 c343cw_w035            fwd x0      rows  75.0 fib 3.8 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.12 c343cw_w056            fwd x1300   rows  75.0 fib 8.8 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.11 c343cw_w049            rev x1300   rows  30.0 fib 8.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+  0.10 c343cw_w051            rev x2600   rows  70.0 fib 11.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.02 c343cw_w040            fwd x1300   rows  75.0 fib 8.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.10 c343cw_w052            rev x0      rows  35.0 fib 3.8 tex 0.98 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.11 c343cw_w055            fwd x0      rows  35.0 fib 1.2 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.21 c343cw_w027            fwd x0      rows  30.0 fib 8.8 tex 1.06 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.24 c343cw_w063            fwd x3900   rows  80.0 fib 13.8 tex 1.03 crack None shape None recur None  -> auto-reject: rows not along winding, sheet not flat (fold/crossing)
+ -0.25 c343cw_w031            fwd x0      rows  35.0 fib 3.8 tex 1.06 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.26 c343cw_w064            fwd x2600   rows  15.0 fib 13.8 tex 1.04 crack None shape None recur None  -> auto-reject: sheet not flat (fold/crossing)
+ -0.30 c343cw_w052            fwd x1300   rows  50.0 fib 1.2 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.30 c343cw_w061            fwd x0      rows  75.0 fib 1.2 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.32 c343cw_w043            rev x1300   rows  65.0 fib 8.8 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.32 c343cw_w058            fwd x3900   rows  85.0 fib 8.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.34 c343cw_w038            rev x0      rows  50.0 fib 3.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.41 c343cw_w060            fwd x1300   rows  80.0 fib 1.2 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.42 c343cw_w045            fwd x2600   rows  60.0 fib 3.8 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.45 c343cw_w037            fwd x0      rows  50.0 fib 3.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.51 c343cw_w062            fwd x0      rows  70.0 fib 1.2 tex 0.98 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.54 c343cw_w034            rev x0      rows  70.0 fib 3.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.57 c343cw_w055            fwd x1300   rows  35.0 fib 18.8 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding, sheet not flat (fold/crossing)
+ -0.57 c343cw_w062            rev x2600   rows  30.0 fib 16.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding, sheet not flat (fold/crossing)
+ -0.61 c343cw_w041            fwd x0      rows  45.0 fib 1.2 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.62 c343cw_w042            fwd x1300   rows  50.0 fib 8.8 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.65 c343cw_w056            fwd x3900   rows  80.0 fib 11.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.67 c343cw_w057            fwd x3900   rows  35.0 fib 3.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.67 c343cw_w060            fwd x0      rows  50.0 fib 6.2 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.68 c343cw_w057            rev x3900   rows  25.0 fib 3.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.75 c343cw_w033            rev x1300   rows  75.0 fib 3.8 tex 1.07 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.75 c343cw_w061            fwd x1300   rows  30.0 fib 1.2 tex 0.95 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.77 c343cw_w031            rev x0      rows  60.0 fib 3.8 tex 1.06 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.77 c343cw_w064            rev x2600   rows  70.0 fib 13.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding, sheet not flat (fold/crossing)
+ -0.79 c343cw_w053            fwd x2600   rows  80.0 fib 11.2 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.81 c343cw_w029            fwd x0      rows  25.0 fib 8.8 tex 1.06 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.81 c343cw_w029            rev x0      rows  25.0 fib 8.8 tex 1.06 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.82 c343cw_w036            rev x0      rows  70.0 fib 3.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.83 c343cw_w036            fwd x1300   rows  65.0 fib 3.8 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.86 c343cw_w049            fwd x1300   rows  35.0 fib 8.8 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.87 c343cw_w058            fwd x1300   rows  25.0 fib 3.8 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.87 c343cw_w066            fwd x1300   rows  85.0 fib 1.2 tex 0.94 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.91 c343cw_w051            fwd x2600   rows  40.0 fib 11.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.94 c343cw_w039            fwd x0      rows  50.0 fib 3.8 tex 1.03 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.95 c343cw_w063            fwd x2600   rows  60.0 fib 11.2 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.95 c343cw_w063            rev x0      rows  30.0 fib 3.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+ -0.96 c343cw_w046            rev x0      rows  30.0 fib 1.2 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.01 c343cw_w066            fwd x0      rows  85.0 fib 3.8 tex 0.97 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.08 c343cw_w045            fwd x1300   rows  75.0 fib 6.2 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.14 c343cw_w048            fwd x0      rows  35.0 fib 3.8 tex 0.98 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.20 c343cw_w062            fwd x2600   rows  70.0 fib 16.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding, sheet not flat (fold/crossing)
+ -1.21 c343cw_w036            fwd x0      rows  50.0 fib 3.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.24 c343cw_w035            fwd x1300   rows  25.0 fib 1.2 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.24 c343cw_w063            rev x2600   rows  25.0 fib 11.2 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.27 c343cw_w062            fwd x1300   rows  45.0 fib 3.8 tex 0.96 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.34 c343cw_w051            fwd x1300   rows  45.0 fib 6.2 tex 1.04 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.41 c343cw_w052            fwd x2600   rows  35.0 fib 8.8 tex 1.01 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.48 c343cw_w049            fwd x0      rows  35.0 fib 6.2 tex 1.0 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.51 c343cw_w052            rev x1300   rows  65.0 fib 1.2 tex 1.02 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.56 c343cw_w059            fwd x3900   rows  35.0 fib 11.2 tex 0.98 crack None shape None recur None  -> auto-reject: rows not along winding
+ -1.76 c343cw_w054            fwd x1300   rows  70.0 fib 3.8 tex 0.99 crack None shape None recur None  -> auto-reject: rows not along winding

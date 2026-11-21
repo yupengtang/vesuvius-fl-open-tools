@@ -1,0 +1,62 @@
+--- a/fl/scripts/gap_gate.py
++++ b/fl/scripts/gap_gate.py
+@@ -17,18 +17,30 @@
+     return cv2.resize(a, (shape[1], shape[0])) if a.shape != shape else a
+ 
+ 
+-def gap_stats(render, ink, d=0, centre=None, um=8.64, K=3, T=2.0, mask=None, dump=None, near_mm=0.3):
++def gap_stats(render, ink, d=0, centre=None, um=8.64, K=3, T=2.0, mask=None, dump=None, near_mm=0.3, cols=None):
++    """cols=(c0, c1): compute only on render columns c0..c1, for a mask that is False outside them. The result is the
++    same as on the whole render: columns within 4 sigma of the blurs around [c0, c1) are read, and the two masked blurs
++    see zeros past the cut, which is what the masked whole render holds there."""
+     v = zarr.open(str(render), mode='r')['0']
+     c = v.shape[0] // 2 if centre is None else centre
+-    st = np.asarray(v[c + d - K:c + d + K + 1]).astype(np.float32)
++    px = 1000.0 / um                                   # px per mm
++    W = v.shape[2]; a0, a1, pad = 0, W, (0, 0)
++    if cols is not None:
++        r = lambda sig: int(np.ceil(4 * sig * px)) + 2    # OpenCV's float kernel radius is about 4 sigma
++        m = r(0.3) + r(0.15) + 8
++        a0, a1 = max(0, cols[0] - m), min(W, cols[1] + m)
++        pad = (r(2) if a0 > 0 else 0, r(2) if a1 < W else 0)
++        ink = ink[:, a0:a1]; mask = None if mask is None else mask[:, a0:a1]
++    st = np.asarray(v[c + d - K:c + d + K + 1, :, a0:a1]).astype(np.float32)
+     valid = (st > 0).all(0)
+     valid = cv2.erode(valid.astype(np.uint8), np.ones((15, 15), np.uint8)) > 0
+     if mask is not None:
+         valid &= mask
+     mn = st.min(0)
+-    px = 1000.0 / um                                   # px per mm
+     ms = cv2.GaussianBlur(mn, (0, 0), 0.15 * px)
+-    loc = cv2.GaussianBlur(np.where(valid, mn, 0), (0, 0), 2 * px) / (cv2.GaussianBlur(valid.astype(np.float32), (0, 0), 2 * px) + 1e-6)
++    zpad = lambda x: np.pad(x, ((0, 0), pad)) if any(pad) else x   # zeros past an inner cut, as in the whole masked render
++    cut = lambda x: x[:, pad[0]:x.shape[1] - pad[1]]
++    loc = cut(cv2.GaussianBlur(zpad(np.where(valid, mn, 0)), (0, 0), 2 * px)) / (cut(cv2.GaussianBlur(zpad(valid.astype(np.float32)), (0, 0), 2 * px)) + 1e-6)
+     g = 1 - ms / (loc + 1e-3)                          # relative darkness of the thin-slab min-projection
+     crack = (g > max(GAP_T, np.percentile(g[valid], 95))) & valid
+     n, lab, stats, _ = cv2.connectedComponentsWithStats(crack.astype(np.uint8), connectivity=8)
+--- a/fl/scripts/tri_rank.py
++++ b/fl/scripts/tri_rank.py
+@@ -65,7 +65,7 @@
+         cand.append(r)
+ texs = [r['tex'] for r in cand if r['tex'] is not None]
+ lane_tex = float(np.median(texs)) if len(texs) >= 5 else None      # too few windows: the papyrus gate is skipped
+-rows = []
++rows = []; _z = [None, None]
+ for r in cand:
+     d, ren, n, side, x0 = r.pop('_d'), r.pop('_ren'), r['name'], r['side'], r['x0']
+     hard, soft = [], []
+@@ -76,10 +76,11 @@
+         if r['rel_tex'] < REL_TEX_MIN: hard.append('no papyrus texture (mounting material/void)')
+     zf = glob.glob(os.path.join(d, f"*_d0_{'reverse' if side == 'rev' else 'fwd'}_z.npy"))
+     if not hard and os.path.exists(ren) and zf:
+-        z = np.load(zf[0]).astype(np.float32)
++        if _z[0] != zf[0]: _z[:] = [zf[0], np.load(zf[0]).astype(np.float32)]   # windows of one map come in a row
++        z = _z[1]
+         if not a.no_crack:
+             m = np.zeros(z.shape, bool); m[:, x0:x0 + a.win] = True
+-            try: r['crack'] = round(gap_stats(ren, z, d=0, um=a.um, mask=m)['enrich'], 2)
++            try: r['crack'] = round(gap_stats(ren, z, d=0, um=a.um, mask=m, cols=(x0, x0 + a.win))['enrich'], 2)   # same value, window columns only
+             except Exception as e: r['crack'] = f'err {e}'
+             if not (isinstance(r['crack'], float) and r['crack'] <= CRACK_MAX): soft.append('on cracks')
+         ct = np.asarray(zarr.open(ren, mode='r')['0'][15][:, x0:x0 + a.win]).astype(np.float32)

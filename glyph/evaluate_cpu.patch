@@ -1,0 +1,16 @@
+--- x_glyph/evaluate.py
++++ x_glyph/evaluate.py
+@@ -34,10 +34,11 @@
+     if not ws:
+         return np.zeros(0, np.float32)
+     A, M = win_stack(it, ws)
++    dev = next(net.parameters()).device   # CPU lead checks run the glyph model on the CPU
+     out = []
+     for i in range(0, len(A), bs):
+-        a = torch.from_numpy(A[i:i + bs, None]).cuda(); m = torch.from_numpy(M[i:i + bs, None]).cuda()
+-        with torch.autocast('cuda', dtype=torch.float16):
++        a = torch.from_numpy(A[i:i + bs, None]).to(dev); m = torch.from_numpy(M[i:i + bs, None]).to(dev)
++        with torch.autocast(dev.type, dtype=torch.float16, enabled=dev.type == 'cuda'):
+             s = _tta(net, a, m, tta)
+         out.append(s.float().cpu())
+     return torch.cat(out).numpy()

@@ -1,0 +1,34 @@
+--- a/x_research2/speed/fastpipe.py
++++ b/x_research2/speed/fastpipe.py
+@@ -83,8 +83,9 @@
+         if torch.cuda.is_available():
+             torch.cuda.set_per_process_memory_fraction(min(1.0, vram_gb * 2**30 / torch.cuda.get_device_properties(0).total_memory))
+         self.M = {}
++        dev = 'cuda' if torch.cuda.is_available() else 'cpu'   # CPU only for small jobs (rescan lead checks) when no GPU is free
+         for m in self.cfg['models']:
+-            self.M[m] = FI.HecateFast('bf16') if m == 'hec' else FI.V8Fast('fp16') if m == 'v8' else FI.VillaFast(CK[m])
++            self.M[m] = FI.HecateFast('bf16', device=dev) if m == 'hec' else FI.V8Fast('fp16', device=dev) if m == 'v8' else FI.VillaFast(CK[m], device=dev)
+ 
+     def run(self, render, out, d=0, dirs=('forward', 'reverse'), um=8.64, mask=False):
+         render, out = Path(render), Path(out); out.mkdir(parents=True, exist_ok=True)
+@@ -118,7 +119,8 @@
+                                                  skip_mask=q if mask else None)
+                         acc.append(o.astype(np.float32))
+                     maps[dn][m] = np.clip(np.mean(acc, 0), 0, 255).astype(np.uint8)
+-            torch.cuda.synchronize(); timing[m] = round(time.time() - t, 2)
++            if torch.cuda.is_available(): torch.cuda.synchronize()
++            timing[m] = round(time.time() - t, 2)
+         for dn in dirs:
+             suf = '_reverse' if dn == 'reverse' else ''
+             for m, a in maps[dn].items():
+--- a/fl/scripts/glyph_win.py
++++ b/fl/scripts/glyph_win.py
+@@ -55,7 +55,7 @@
+     ap.add_argument('--um', type=float, default=8.64); ap.add_argument('--model', default=f'{W}/x_glyph/models/gA.pt')
+     ap.add_argument('--redo', action='store_true')
+     a = ap.parse_args()
+-    dev = 'cuda'
++    dev = 'cuda' if torch.cuda.is_available() else 'cpu'
+     if dev == 'cuda':
+         torch.cuda.set_per_process_memory_fraction(0.06)
+     torch.set_num_threads(int(os.environ.get('OMP_NUM_THREADS', '4')))

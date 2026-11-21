@@ -1,0 +1,20 @@
+--- a/x_recipe_erwin/remote/erwin_data.sh
++++ b/x_recipe_erwin/remote/erwin_data.sh
+@@ -58,6 +58,17 @@
+ for zi in $(seq $((Z0/192-1)) $((Z1/192+1))); do aws s3 sync --no-sign-request --only-show-errors $MS/0/$zi $M/0/$zi & done; wait
+ read A B < <(python3 -c "print(((($Z0-64)//2)//256*256-64)//192, ((($Z1+64)//2+255)//256*256+64)//192)")
+ for zi in $(seq $A $B); do aws s3 sync --no-sign-request --only-show-errors $MS/1/$zi $M/1/$zi & done; wait
++# NOTRACKS: this band's tracks from the m7 level 0 just downloaded, with the published tracks' parameters (GPU extractor
++# in x_recipe_erwin/tracks_gpu, own py3.14 env), then packed store + crossings cache with the fitter's own tracks.py
++if [ -n "${NOTRACKS:-}" ] && [ ! -s $D/tracks/$P.dbm.crossings.npz ]; then
++  TPY=$W/envs/tracks_gpu/bin/python
++  [ -x $TPY ] || { uv venv -q -p 3.14 $W/envs/tracks_gpu && uv pip install -q -p $TPY brook-cu12 cucim-cu12 numba numcodecs zarr; }
++  read TA TZ < <(python3 -c "print(max(0, $Z0 - 128), min($ZS, $Z1 + 128))")
++  $TPY $X/tracks_gpu/local_tracks.py $M/0 $D/tracks/$P.dbm $TA $TZ > $D/local_tracks.log 2>&1 || { tail -20 $D/local_tracks.log; exit 1; }
++  ( cd $SP && $SPY -c "import tracks; tracks.write_packed_track_store('$D/tracks/$P.dbm', force=True)" \
++    && PYTHONPATH=$X/native_pkg $SPY build_track_crossings.py $D/tracks/$P.dbm ) >> $D/local_tracks.log 2>&1 || { tail -20 $D/local_tracks.log; exit 1; }
++  grep -E "extracted in|crossing" $D/local_tracks.log | tail -3
++fi
+ # CT: level 4 whole, level 1 over the SDT tile windows (chunks 128)
+ CS=s3://vesuvius-challenge-open-data/$VOLK
+ for f in .zattrs .zgroup 1/.zarray 4/.zarray; do aws s3 cp --no-sign-request --only-show-errors $CS/$f $C/$f; done
